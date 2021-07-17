@@ -41,3 +41,18 @@ const message1 = `my name is ${myProfile.name}, ${myProfile.age} old.`;
 // オブジェクトから抜き出すことができる
 const { myName, myAge } = myProfile;
 const message2 = `my name is ${myName}, ${myAge} old.`;
+
+// 論理演算子
+
+// ||は左側がfalseなら右側を返す
+const num = null;
+const fee = num || "u r no";
+console.log(fee);
+
+// &&は左辺がtrueなら右辺を返す
+const boo = 1;
+const tax = boo && "u r yes";
+console.log(tax);
+
+const taxi = num && "u r yes";
+console.log(taxi);
